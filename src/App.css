@@ -1,0 +1,89 @@
+body {
+    font-family: 'Inter', sans-serif;
+    width: 550px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px 0px rgb(146, 146, 146);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    background-color: rgb(146, 146, 255);
+    color: white;
+    box-shadow: 0 0 3px 0px rgb(146, 146, 146);
+    margin-bottom: 30px;
+}
+
+.navbar--logo {
+    max-width: 25px;
+    object-fit: contain;
+    margin-right: 7px;
+}
+
+.navbar--title {
+    font-weight: 500;
+    text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black,
+    1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+
+.journal {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.journal--img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.journal--text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.journal--text--maps {
+    font-size: 10px;
+    align-items: center;
+}
+
+.journal--text--maps--path {
+    height: 10px;
+    padding-right: 4px;
+}
+
+.journal--text--maps--country {
+    padding-right: 15px;
+    letter-spacing: 0.1em;
+}
+
+
+.journal--text--maps--link {
+    color: gray;
+}
+
+.journal--text--location {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.journal--text--date {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.journal--text--description {
+    font-size: 10px;
+    font-weight: 400;
+    width: 90%;
+    line-height: 1.4;
+}

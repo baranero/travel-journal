@@ -1,0 +1,38 @@
+export default [
+    {
+        id: 1,
+        country: "CROATIA",
+        location: "Sveti Jure",
+        date: "26 Aug 2022 - 4 Sep 2022",
+        description: "Sv. Jure is the highest peak of Biokovo and the second highest peak in the Republic of Croatia, standing at 1762 meters.",
+        image: "sveti-jure.jpg",
+        link: "https://goo.gl/maps/QrnEStZduCDggzqs6",
+    },
+    {
+        id: 2,
+        country: "CROATIA",
+        location: "Dubrovnik",
+        date: "26 Aug 2022 - 4 Sep 2022",
+        description: "Dubrovnik was once a center of European trade, now primarily a center of tourism. Commercial and passenger port. Game of Thrones was recorded there.",
+        image: "dubrovnik.jpeg",
+        link: "https://goo.gl/maps/ZzpCgc1dh4tWhnAi8",
+    },
+    {
+        id: 3,
+        country: "ITALY",
+        location: "Pisa",
+        date: "10 Dec 2021 - 12 Dec 2021",
+        description: "Pisa is a city in Tuscany famous for its leaning tower.",
+        image: "pisa.jpg",
+        link: "https://goo.gl/maps/4ghfXboWr5bT95uXA",
+    },
+    {
+        id: 4,
+        country: "ITALY",
+        location: "Florence",
+        date: "10 Dec 2021 - 12 Dec 2021",
+        description: "Florence is a historic city in Italy, the capital of Tuscany. Assassin's Creed 2 was set in this city.",
+        image: "florence.jpg",
+        link: "https://goo.gl/maps/nW2MFUYy8EnTi7YJ9",
+    },
+]
