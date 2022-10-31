@@ -4,7 +4,7 @@ export default function Journal(props) {
 
     return (
         <div className="journal">
-            <img src={process.env.PUBLIC_URL + `../images/${props.image}`} className="journal--img" />
+            <img src={process.env.PUBLIC_URL + `/images/${props.image}`} className="journal--img" />
             <div className="journal--text">
                 <div className="journal--text--maps">
                     <img src={process.env.PUBLIC_URL + "../images/path.png"} className="journal--text--maps--path" />
