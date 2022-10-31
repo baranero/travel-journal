@@ -14,7 +14,7 @@ export default [
         location: "Dubrovnik",
         date: "26 Aug 2022 - 4 Sep 2022",
         description: "Dubrovnik was once a center of European trade, now primarily a center of tourism. Commercial and passenger port. Game of Thrones was recorded there.",
-        image: "dubrovnik.jpeg",
+        image: "dubrovnik.JPEG",
         link: "https://goo.gl/maps/ZzpCgc1dh4tWhnAi8",
     },
     {
